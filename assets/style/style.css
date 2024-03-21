@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.akronim {
+    font-family: 'Akronim', display;
+}
+
+.akaya {
+    font-family: 'Akaya Kanadaka', display;
+}
+
+.green-bg {
+    background-color: #35665A;
+}
+
+.light-text {
+    color: #F2EDE0;
+}
+
+.light-yellow {
+    background-color: #FFF0CB;
+}
+
+.green-text {
+    color: #174D0F;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+}
