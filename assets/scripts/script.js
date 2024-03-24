@@ -105,6 +105,15 @@ openCards.forEach(card => {
             originElement.textContent = selectedCharacter.origin.name;
             const locationElement = modalWindow.querySelector('.location');
             locationElement.textContent = selectedCharacter.location.name;
+
+            const episodesUlContainer = modalWindow.querySelector('.episodes');
+            const episodes = selectedCharacter.episode;
+
+            episodes.forEach(episode => {
+                const episodeElement = document.createElement('li');
+                episodeElement.textContent = episode;
+                episodesUlContainer.appendChild(episodeElement);
+            })
         }
     });
 });
